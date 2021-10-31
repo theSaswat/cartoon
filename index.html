@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cartoon</title>
+        <style>
+        #background {
+            position: absolute;
+            width: 290px;
+            height:300px;
+            border-radius: 50%;
+            background-color: aqua;
+            top: 50px;
+            left: 45px;
+            
+        }
+        .left-hand {
+            position: absolute;
+            width: 60px;
+            height:135px;
+            background-color: black;
+            border-radius: 150px 0px 0px 150px;
+            transform: rotate(61deg);
+            top:6px;
+            left:0px;
+            
+            margin-left: 100px;
+        }
+        #cone {
+            position: absolute;
+            border: 10px solid transparent;
+            border-radius: 40px solid black;
+            top:2px;
+            left:200px;
+        }
+        .right-hand {
+
+            position: absolute;
+            width: 60px;
+            height:135px;
+            background-color: black;
+            border-radius: 150px 0px 0px 150px;
+            transform: rotate(120deg);
+            top:6px;
+            left:125px;
+            margin-left: 100px;
+        }
+        #face {
+            position: absolute;
+            width:190px;
+            height:178px;
+            top:90px;
+            left:100px;
+            /*border-bottom-left-radius: 25%;
+            border-bottom-right-radius: 25%;*/
+            border-radius: 35%;
+            background-color:rgb(255,250,208);
+        }
+        .left-ear {
+            position: absolute;
+            left:-25px;
+            top:69px;
+            height:40px;
+            width:40px;
+            background-color: rgb(255,250,208);
+            border-radius: 50%;
+            text-align: center;
+          
+        }
+        #dot1 {
+            position: absolute;
+            height:10px;
+            width:10px;
+            background-color:black;
+            border-radius:60%;
+           left: 15px;
+           top:15px;
+           
+        }
+        .right-ear {
+            position: absolute;
+            left:180px;
+            top:68px;
+            height:40px;
+            width:40px;
+            background-color: rgb(255,250,208);
+            border-radius: 50%;
+            text-align: center;
+
+        }
+        #dot2 {
+            position: absolute;
+            height:10px;
+            width:10px;
+            background-color:black;
+            border-radius:60%;
+           left: 15px;
+           top:15px;
+        }
+        .left-eye-brow {
+            width: 40px;
+            height:30px;
+            border-radius: 50%;
+            background-color: black;
+            left:120px;
+            top:120px;
+            position: absolute;
+
+        }
+        .left-eyebrow-gap {
+            position: absolute;
+            top:126px;
+            left:120px;
+            width:40px;
+            height: 30px;
+            background-color: rgb(255,250,208);
+            border-radius: 50%;
+            
+        }
+        .right-eyebrow {
+            width: 40px;
+            height:30px;
+            border-radius: 50%;
+            background-color: black;
+            left:220px;
+            top:120px;
+            position: absolute;
+
+        }
+        .right-eyebrow-gap {
+            position: absolute;
+            top:126px;
+            left:220px;
+            width:40px;
+            height: 30px;
+            background-color: rgb(255,250,208);
+            border-radius: 50%;
+        }
+        .mouth {
+            position: absolute;
+            left:170px;
+            top:160px;
+            width:35px;
+            height:7px;
+            background-color: black;
+            border-radius: 60%;
+        
+        }
+        #mouth1{
+            position: relative;
+            top:10px;
+            width:35px;
+            height:28px;
+            background-color:darkgray ;
+            border-radius: 59%;
+        }
+        .left-eye {
+            position: absolute;
+            left:130px;
+            top:135px;
+            width:20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        .right-eye {
+            position: absolute;
+            left:230px;
+            top:135px;
+            width:20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        #neck {
+            position: absolute;
+            top:227px;
+            left:145px;
+            width: 96px;
+            height: 91px;
+            background-color:rgb(255,250,208);
+            border-radius: 50%;
+        }
+        #body {
+            position: absolute;
+            top: 255px;
+            left:80px;
+            width:229px;
+            height:135px;
+            background-color: rgb(146, 255, 146);
+            border-radius: 30%;
+        }
+        </style>
+    </head> 
+    <body>
+        <div id="background"></div>
+        <div class="left-hand"></div>
+        <div class="right-hand"></div>
+        <div id="cone"></div>
+        <div id="face">
+            <div class="left-ear">
+                <div id="dot1"></div>
+            </div>
+            <div class="right-ear">
+                <div id="dot2"></div>
+            </div>
+        </div>
+        <div class="left-eye-brow"></div>
+        <div class="left-eyebrow-gap"></div>
+        <div class="right-eyebrow"></div>
+        <div class="right-eyebrow-gap"></div>
+        <div class="mouth">
+            <div id="mouth1"></div>
+        </div>
+        <div class="left-eye"></div>
+        <div class="right-eye"></div>
+        <div id="neck"></div>
+        <div id="body"></div>
+        </body>
+</html>
